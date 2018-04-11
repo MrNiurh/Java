@@ -7,7 +7,7 @@ public class School {
 
 	public void showCenter() {
 
-		System.out.println(schoolName + "ÅàÑµÑ§Ô±\n" + "Åä±¸:" + classNumber + "¸ö½ÌÊÒ," + labNumber + "»ú·¿");
+		System.out.println(schoolName + "åŸ¹è®­å­¦å‘˜\n" + "é…å¤‡:" + classNumber + "ä¸ªæ•™å®¤," + labNumber + "æœºæˆ¿");
 	}
 
 }

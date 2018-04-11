@@ -6,16 +6,16 @@ public class Test {
 		// TODO Auto-generated method stub
 
 		Dog dog = new Dog();
-		dog.strain = "Ñ©ÄÉÈð";
+		dog.strain = "é›ªçº³ç‘ž";
 		dog.setHealth(100);
 		dog.setLove(0);
-		dog.setName("Å·Å·");
+		dog.setName("æ¬§æ¬§");
 
 		Penguin penguin = new Penguin();
-		penguin.sex = "´Æ";
+		penguin.sex = "é›Œ";
 		penguin.setHealth(100);
 		penguin.setLove(0);
-		penguin.setName("éªéª");
+		penguin.setName("æ¥ æ¥ ");
 
 		dog.print();
 		dog.myStrain();

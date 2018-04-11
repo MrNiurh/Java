@@ -3,10 +3,10 @@ package Java2;
 public class Page7 {
 
 	public static void main(String[] args) {
-		// While Ñ­»·Êä³ö´òÓ¡ÊÔ¾í
+		// While å¾ªç¯è¾“å‡ºæ‰“å°è¯•å·
 		int count = 1;
 		while (count <= 50) {
-			System.out.println("´òÓ¡µÚ" + count + "·İÊÔ¾í!");
+			System.out.println("æ‰“å°ç¬¬" + count + "ä»½è¯•å·!");
 			count++;
 		}
 	}

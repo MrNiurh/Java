@@ -3,7 +3,7 @@ package Java2;
 public class Page35 {
 
 	public static void main(String[] args) {
-		// ¼ÆËã100ÒÔÄÚÆæÊıºÍ
+		// è®¡ç®—100ä»¥å†…å¥‡æ•°å’Œ
 
 		int sum = 0;
 		for (int i = 0; i <= 100; i++) {
@@ -11,7 +11,7 @@ public class Page35 {
 			if (i % 2 == 1)
 				sum += i;
 		}
-		System.out.println("100ÒÔÄÚÆæÊıºÍÎª:" + sum);
+		System.out.println("100ä»¥å†…å¥‡æ•°å’Œä¸º:" + sum);
 	}
 
 }

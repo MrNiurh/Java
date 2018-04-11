@@ -14,10 +14,10 @@ public class Test {
 
 		for (int i = 0;; i++) {
 
-			System.out.print("ÇëÊäÈë¹Ë¿ÍĞÕÃû:");
+			System.out.print("è¯·è¾“å…¥é¡¾å®¢å§“å:");
 			name = input.next();
 			cus.Names[i] = cus.addName(name);
-			System.out.print("¼ÌĞøÊäÈëÂğ?(y/n)");
+			System.out.print("ç»§ç»­è¾“å…¥å—?(y/n)");
 			check = input.next();
 			if (check.equals("y"))
 				continue;
@@ -26,7 +26,7 @@ public class Test {
 		}
 		System.out.println("*****************************");
 		System.out.println();
-		System.out.println("\t¹Ë¿ÍĞÕÃûÁĞ±í");
+		System.out.println("\té¡¾å®¢å§“ååˆ—è¡¨");
 		System.out.println();
 		System.out.println("*****************************");
 		cus.showNames();

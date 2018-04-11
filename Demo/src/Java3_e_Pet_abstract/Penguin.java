@@ -9,7 +9,7 @@ public class Penguin extends Pet {
 	}
 
 	public void mySex() {
-		System.out.println("ÎÒµÄÐÔ±ðÊÇ" + sex);
+		System.out.println("æˆ‘çš„æ€§åˆ«æ˜¯" + sex);
 	}
 
 }

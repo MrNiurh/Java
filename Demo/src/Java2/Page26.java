@@ -8,16 +8,16 @@ public class Page26 {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÊäÈëÑ§ÉúĞÕÃû:");
+		System.out.print("è¾“å…¥å­¦ç”Ÿå§“å:");
 		String name = input.nextLine();
 		double summary = 0;
 
 		for (int i = 0; i < 5; i++) {
-			System.out.print("ÇëÊäÈë5ÃÅ¿ÎÖĞµÚ" + (i + 1) + "ÃÅ¿ÎµÄ³É¼¨:");
+			System.out.print("è¯·è¾“å…¥5é—¨è¯¾ä¸­ç¬¬" + (i + 1) + "é—¨è¯¾çš„æˆç»©:");
 			int scores = input.nextInt();
 			summary += scores;
 		}
-		System.out.println(name + "µÄÆ½¾ù·ÖÊÇ:" + summary / 5);
+		System.out.println(name + "çš„å¹³å‡åˆ†æ˜¯:" + summary / 5);
 	}
 
 }

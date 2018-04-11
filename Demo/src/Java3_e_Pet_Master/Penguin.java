@@ -5,10 +5,10 @@ public class Penguin extends Pet {
 	@Override
 	public void print() {
 
-		System.out.println("³èÎïµÄ×Ô°×:");
-		System.out.println("ÎÒÊÇÒ»Ö»Ğ¡Æó¶ì");
+		System.out.println("å® ç‰©çš„è‡ªç™½:");
+		System.out.println("æˆ‘æ˜¯ä¸€åªå°ä¼é¹…");
 		System.out.println(
-				"ÎÒµÄÃû×Ö½Ğ" + getName() + ",ÎÒµÄ½¡¿µÖµÊÇ" + getHealth() + ",ÎÒºÍÖ÷ÈËµÄÇ×ÃÜ¶ÈÊÇ" + getLove() + ",ÎÒµÄĞÔ±ğÊÇ:" + getSex());
+				"æˆ‘çš„åå­—å«" + getName() + ",æˆ‘çš„å¥åº·å€¼æ˜¯" + getHealth() + ",æˆ‘å’Œä¸»äººçš„äº²å¯†åº¦æ˜¯" + getLove() + ",æˆ‘çš„æ€§åˆ«æ˜¯:" + getSex());
 
 	}
 

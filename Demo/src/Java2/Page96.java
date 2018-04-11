@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class Page96 {
 
 	public static void main(String[] args) {
-		// ÉıĞòÅÅÁĞ³É¼¨
+		// å‡åºæ’åˆ—æˆç»©
 
 		int[] scores = new int[5];
 		Scanner input = new Scanner(System.in);
-		System.out.println("ÇëÊäÈë5Î»Ñ§Ô±µÄ³É¼¨");
+		System.out.println("è¯·è¾“å…¥5ä½å­¦å‘˜çš„æˆç»©");
 
 		for (int i = 0; i < 5; i++) {
 
@@ -19,7 +19,7 @@ public class Page96 {
 
 		Arrays.sort(scores);
 
-		System.out.println("Ñ§Ô±³É¼¨°´ÉıĞòÅÅÁĞ:");
+		System.out.println("å­¦å‘˜æˆç»©æŒ‰å‡åºæ’åˆ—:");
 		for (int i = 0; i < 5; i++) {
 
 			System.out.print(scores[i] + "  ");

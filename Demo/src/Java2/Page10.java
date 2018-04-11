@@ -12,7 +12,7 @@ public class Page10 {
 			students *= (1 + 0.25);
 			year++;
 		}
-		System.out.println("µ½" + year + "ÄêÅàÑµÑ§Ô±½«´ïµ½100ÍòÈË!");
+		System.out.println("åˆ°" + year + "å¹´åŸ¹è®­å­¦å‘˜å°†è¾¾åˆ°100ä¸‡äºº!");
 	}
 
 }

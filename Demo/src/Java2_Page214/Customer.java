@@ -6,14 +6,14 @@ public class Customer {
 
 	Scanner input = new Scanner(System.in);
 
-	public String Names[] = new String[5];// ³õÊ¼»¯Êı×é,ÉèÖÃ³¤¶ÈÎª5
+	public String Names[] = new String[5];// åˆå§‹åŒ–æ•°ç»„,è®¾ç½®é•¿åº¦ä¸º5
 
-	public String addName(String name) {// ÔöÌíĞÕÃû
+	public String addName(String name) {// å¢æ·»å§“å
 
 		return name;
 	}
 
-	public void showNames() {// ÏÔÊ¾ÊäÈëµÄĞÕÃû
+	public void showNames() {// æ˜¾ç¤ºè¾“å…¥çš„å§“å
 
 		for (int i = 0; i < Names.length; i++) {
 
@@ -24,22 +24,22 @@ public class Customer {
 
 	public void changeName() {
 
-		System.out.println("ÇëÊäÈëÒªĞŞ¸ÄµÄ¿Í»§ĞÕÃû:");
+		System.out.println("è¯·è¾“å…¥è¦ä¿®æ”¹çš„å®¢æˆ·å§“å:");
 		String name = input.next();
-		System.out.println("ÇëÊäÈëĞÂµÄ¿Í»§ĞÕÃû:");
+		System.out.println("è¯·è¾“å…¥æ–°çš„å®¢æˆ·å§“å:");
 		String newName = input.next();
-		for (int i = 0; i < Names.length; i++) {// ±éÀúÊı×é
+		for (int i = 0; i < Names.length; i++) {// éå†æ•°ç»„
 
-			if (Names[i].equals(name)) {// ÅĞ¶ÏĞÕÃû´æÔÚ
-				Names[i] = newName;// ¸³Öµ
-				System.out.println("*******ĞŞ¸Ä½á¹û*******");
-				System.out.println("ÕÒµ½²¢ĞŞ¸Ä³É¹¦!");
+			if (Names[i].equals(name)) {// åˆ¤æ–­å§“åå­˜åœ¨
+				Names[i] = newName;// èµ‹å€¼
+				System.out.println("*******ä¿®æ”¹ç»“æœ*******");
+				System.out.println("æ‰¾åˆ°å¹¶ä¿®æ”¹æˆåŠŸ!");
 				break;
 			}
 
-			else if (i == Names.length) {// ÅĞ¶ÏĞÕÃû²»´æÔÚ
-				System.out.println("*******ĞŞ¸Ä½á¹û*******");
-				System.out.println("²éÎŞ´ËÈË!");
+			else if (i == Names.length) {// åˆ¤æ–­å§“åä¸å­˜åœ¨
+				System.out.println("*******ä¿®æ”¹ç»“æœ*******");
+				System.out.println("æŸ¥æ— æ­¤äºº!");
 
 			}
 

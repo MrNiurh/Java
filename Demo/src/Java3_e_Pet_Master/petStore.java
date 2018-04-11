@@ -10,37 +10,39 @@ public class petStore {
 
 		String myPet = "";
 		String petSex = "";
-		System.out.println("»¶Ó­ÄúÀ´µ½³èÎïµê");
-		System.out.print("ÇëÊäÈëÒªÁìÑø³èÎïµÄÃû×Ö:");
+		System.out.println("æ¬¢è¿æ‚¨æ¥åˆ°å® ç‰©åº—");
+		System.out.print("è¯·è¾“å…¥æ‚¨è¦é¢†å…»å® ç‰©çš„åå­—:");
 		String petName = input.next();
 		Pet[] pet = { new Dog(), new Penguin() };
 
-		System.out.print("ÇëÑ¡ÔñÒªÁìÑøµÄ³èÎïÀàĞÍ: (1.¹·¹·    2.Æó¶ì)");
+		System.out.print("è¯·é€‰æ‹©è¦é¢†å…»çš„å® ç‰©çš„ç±»å‹: (1.ç‹—ç‹—    2.ä¼é¹…)");
 		int petNumber = input.nextInt();
-		System.out.print("ÇëÑ¡Ôñ" + myPet + "µÄĞÔ±ğ:(1.ĞÛ 2.´Æ)");
+
+		if (petNumber == 1) {// ç¡®å®šæ‰€é€‰å® ç‰©
+			myPet = "ç‹—ç‹—";
+
+		} else if (petNumber == 2) {
+			myPet = "ä¼é¹…";
+
+		}
+
+		System.out.print("è¯·é€‰æ‹©" + myPet + "çš„æ€§åˆ«:(1.é›„   2.é›Œ)");
 		int petSexNumber = input.nextInt();
-		switch (petSexNumber) {
+
+		switch (petSexNumber) {// ç¡®å®šæ€§åˆ«
 		case 1:
-			petSex = "ĞÛ";
+			petSex = "é›„";
 			break;
 		case 2:
-			petSex = "´Æ";
+			petSex = "é›Œ";
 			break;
 		default:
 			break;
 		}
 
-		if (petNumber == 1) {
-			myPet = "¹·¹·";
-
-		} else if (petNumber == 2) {
-			myPet = "Æó¶ì";
-
-		}
-
-		pet[petNumber - 1].setName(petName);
-		pet[petNumber - 1].setSex(petSex);
-		pet[petNumber - 1].print();
+		pet[petNumber - 1].setName(petName);// ä¼ å…¥å§“å
+		pet[petNumber - 1].setSex(petSex);// å§“å
+		pet[petNumber - 1].print();// è‡ªç™½
 
 	}
 

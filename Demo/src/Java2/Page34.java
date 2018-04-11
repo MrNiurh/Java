@@ -9,7 +9,7 @@ public class Page34 {
 			if (i % 3 != 0)
 				sum += i;
 		}
-		System.out.println("1~100²»ÄÜ±»3Õû³ıµÄÊıºÍÎª:" + sum);
+		System.out.println("1~100ä¸èƒ½è¢«3æ•´é™¤çš„æ•°å’Œä¸º:" + sum);
 
 	}
 

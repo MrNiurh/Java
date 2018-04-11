@@ -20,8 +20,8 @@ public class Pet {
 
 	public void print() {
 
-		System.out.println("³èÎïµÄ×Ô°×:");
-		System.out.println("ÎÒµÄÃû×Ö½Ğ" + name + ",ÎÒµÄ½¡¿µÖµÊÇ" + health + ",ÎÒºÍÖ÷ÈËµÄÇ×ÃÜ¶ÈÊÇ" + love);
+		System.out.println("å® ç‰©çš„è‡ªç™½:");
+		System.out.println("æˆ‘çš„åå­—å«" + name + ",æˆ‘çš„å¥åº·å€¼æ˜¯" + health + ",æˆ‘å’Œä¸»äººçš„äº²å¯†åº¦æ˜¯" + love);
 	}
 
 	public void setName(String name) {

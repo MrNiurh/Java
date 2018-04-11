@@ -7,12 +7,12 @@ public class Page6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String[] names = new String[5];// ³õÊ¼»¯
+		String[] names = new String[5];// åˆå§‹åŒ–
 		Scanner input = new Scanner(System.in);
-		System.out.println("nÍË³ö");
-		for (int i = 1; i <= 5; i++) {// Ñ­»·
+		System.out.println("né€€å‡º");
+		for (int i = 1; i <= 5; i++) {// å¾ªç¯
 
-			System.out.print("ÇëÊäÈëµÚ" + i + "¸öÑ§ÉúµÄÃû×Ö:");
+			System.out.print("è¯·è¾“å…¥ç¬¬" + i + "ä¸ªå­¦ç”Ÿçš„åå­—:");
 			String name = input.next();
 			names[i - 1] = name;
 
@@ -22,12 +22,12 @@ public class Page6 {
 
 	}
 
-	static void sortNames(String[] names) {// ·½·¨Ìå
+	static void sortNames(String[] names) {// æ–¹æ³•ä½“
 
-		Arrays.sort(names);// ÅÅĞò
+		Arrays.sort(names);// æ’åº
 
-		System.out.println("***ÅÅĞòºó***");
-		for (String n : names) {// Êä³ö
+		System.out.println("***æ’åºå***");
+		for (String n : names) {// è¾“å‡º
 
 			System.out.print(n + "\t");
 		}

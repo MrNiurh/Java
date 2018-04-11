@@ -10,7 +10,7 @@ public class Test {
 		Dog dog = new Dog();
 		dog.setHealth(100);
 		dog.setLove(0);
-		dog.setName("ŷŷ");
+		dog.setName("欧欧");
 
 		dog.print();
 		master.feed(dog);

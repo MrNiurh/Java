@@ -10,7 +10,7 @@ public class Page43 {
 		for (int i = 1; i <= 10; i++) {
 			sum += i;
 			if (sum > 20) {
-				System.out.println("´Ó1ÀÛ¼ÓÖÁ" + i + "µÄºÍ>20");
+				System.out.println("ä»Ž1ç´¯åŠ è‡³" + i + "çš„å’Œ>20");
 				break;
 			}
 		}

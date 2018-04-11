@@ -43,8 +43,8 @@ public abstract class Pet {
 
 	public void eat() {
 
-		System.out.println("进食...");
-		System.out.println("进食完毕    love +4");
+		System.out.println("杩涢...");
+		System.out.println("杩涢瀹屾瘯    love +4");
 
 	}
 

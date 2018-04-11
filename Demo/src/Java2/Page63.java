@@ -7,19 +7,19 @@ public class Page63 {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëµÈÑüÈı½ÇĞÎµÄĞĞÊı:");
-		int rows = input.nextInt();// ÊäÈëĞĞÊı
+		System.out.print("è¯·è¾“å…¥ç­‰è…°ä¸‰è§’å½¢çš„è¡Œæ•°:");
+		int rows = input.nextInt();// è¾“å…¥è¡Œæ•°
 
-		for (int i = 1; i <= rows; i++) {// Ñ­»·¿ØÖÆĞĞÊı
+		for (int i = 1; i <= rows; i++) {// å¾ªç¯æ§åˆ¶è¡Œæ•°
 
-			for (int j = 0; j < rows - i; j++) {// ´òÓ¡¿Õ¸ñ
+			for (int j = 0; j < rows - i; j++) {// æ‰“å°ç©ºæ ¼
 				System.out.print(" ");
 			}
 
-			for (int j = 0; j < 2 * i - 1; j++) {// ´òÓ¡*
+			for (int j = 0; j < 2 * i - 1; j++) {// æ‰“å°*
 				System.out.print("*");
 			}
-			System.out.println();// »»ĞĞ
+			System.out.println();// æ¢è¡Œ
 		}
 
 	}

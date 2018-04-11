@@ -7,35 +7,35 @@ public class bankOpen {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner input = new Scanner(System.in);// ÊµÀı»¯
+		Scanner input = new Scanner(System.in);// å®ä¾‹åŒ–
 		Account acc = new Account();
 		int exchange;
 
 		for (;;) {
 			System.out.println();
-			System.out.println("1.´æ¿î  2.È¡¿î  0.ÍË³ö");
-			System.out.print("ÇëÑ¡ÔñÄúĞèÒª°ìÀíµÄÒµÎñ:");
+			System.out.println("1.å­˜æ¬¾  2.å–æ¬¾  0.é€€å‡º");
+			System.out.print("è¯·é€‰æ‹©æ‚¨éœ€è¦åŠç†çš„ä¸šåŠ¡:");
 			int choice = input.nextInt();
 			if (choice == 0)
 				break;
 
-			switch (choice) {// ÒµÎñÑ¡Ôñ
+			switch (choice) {// ä¸šåŠ¡é€‰æ‹©
 
-			case 1:// ´æ¿î
-				System.out.print("ÇëÊäÈë´æ¿î½ğ¶î:");
+			case 1:// å­˜æ¬¾
+				System.out.print("è¯·è¾“å…¥å­˜æ¬¾é‡‘é¢:");
 				exchange = input.nextInt();
 				acc.saveMoney(exchange);
 				break;
-			case 2:// È¡¿î
-				System.out.print("ÇëÊäÈëÈ¡¿î½ğ¶î:");
+			case 2:// å–æ¬¾
+				System.out.print("è¯·è¾“å…¥å–æ¬¾é‡‘é¢:");
 				exchange = input.nextInt();
 				acc.takeMoney(exchange);
 				break;
-			case 0:// ÍË³ö
-				System.out.println("Ğ»Ğ»Ê¹ÓÃ!");
+			case 0:// é€€å‡º
+				System.out.println("è°¢è°¢ä½¿ç”¨!");
 				break;
-			default:// ´íÎó²Ù×÷
-				System.out.println("²Ù×÷Ê§°Ü!");
+			default:// é”™è¯¯æ“ä½œ
+				System.out.println("æ“ä½œå¤±è´¥!");
 
 			}
 

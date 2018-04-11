@@ -6,53 +6,53 @@ public class Page40and106 {
 
 	public static void main(String[] args) {
 
-		System.out.println("\t\t»¶Ó­Ê¹ÓÃ¹ºÎï¹ÜÀíÏµÍ³\n");
+		System.out.println("\t\tæ¬¢è¿ä½¿ç”¨è´­ç‰©ç®¡ç†ç³»ç»Ÿ\n");
 		for (int i = 0; i < 30; i++) {
 			System.out.print("* ");
 		}
 		System.out.println("\n");
-		System.out.println("\t\t 1.µÇÂ¼ÏµÍ³\n");
-		System.out.println("\t\t 2.ÍË³ö\n");
+		System.out.println("\t\t 1.ç™»å½•ç³»ç»Ÿ\n");
+		System.out.println("\t\t 2.é€€å‡º\n");
 
 		for (int i = 0; i < 30; i++) {
 			System.out.print("* ");
 		}
 		System.out.println("\n");
-		System.out.println("ÇëÑ¡Ôñ,ÊäÈëÊı×Ö:");
+		System.out.println("è¯·é€‰æ‹©,è¾“å…¥æ•°å­—:");
 
-		// ÊäÈëÑ¡Ôñ
+		// è¾“å…¥é€‰æ‹©
 		Scanner input = new Scanner(System.in);
 		int num = input.nextInt();
 
-		// Ñ¡Ïî½á¹û
+		// é€‰é¡¹ç»“æœ
 		switch (num) {
 		
-		// ÏÂÒ»¸ö½çÃæ
+		// ä¸‹ä¸€ä¸ªç•Œé¢
 		case 1:
 
-			System.out.println("\t\t»¶Ó­Ê¹ÓÃ¹ºÎï¹ÜÀíÏµÍ³\n");
+			System.out.println("\t\tæ¬¢è¿ä½¿ç”¨è´­ç‰©ç®¡ç†ç³»ç»Ÿ\n");
 			for (int i = 0; i < 30; i++) {
 				System.out.print("* ");
 			}
 			System.out.println("\n");
-			System.out.println("\t\t 1.¿Í»§ĞÅÏ¢¹ÜÀí\n");
-			System.out.println("\t\t 2.¹ºÎï½áËã\n");
-			System.out.println("\t\t 1.ÕæÇé»ØÀ¡\n");
-			System.out.println("\t\t 2.×¢Ïú\n");
+			System.out.println("\t\t 1.å®¢æˆ·ä¿¡æ¯ç®¡ç†\n");
+			System.out.println("\t\t 2.è´­ç‰©ç»“ç®—\n");
+			System.out.println("\t\t 1.çœŸæƒ…å›é¦ˆ\n");
+			System.out.println("\t\t 2.æ³¨é”€\n");
 
 			for (int i = 0; i < 30; i++) {
 				System.out.print("* ");
 			}
 			System.out.println("\n");
-			System.out.println("ÇëÑ¡Ôñ,ÊäÈëÊı×Ö:");
+			System.out.println("è¯·é€‰æ‹©,è¾“å…¥æ•°å­—:");
 			break;
 
-		// ÍË³ö
+		// é€€å‡º
 		case 2:
-			System.out.println("Ğ»Ğ»ÄúµÄÊ¹ÓÃ~");
+			System.out.println("è°¢è°¢æ‚¨çš„ä½¿ç”¨~");
 			break;
 
-		// ´íÎóÊäÈë
+		// é”™è¯¯è¾“å…¥
 		default:
 			System.out.println("error!!!");
 			break;

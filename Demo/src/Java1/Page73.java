@@ -8,21 +8,21 @@ public class Page73 {
 
 		Scanner input = new Scanner(System.in);
 		for (;;) {
-			System.out.println("ÇëÊäÈëËÄÎ»»áÔ±¿¨ºÅ:");
-			int number = input.nextInt();// ÊäÈëºÅÂë
-			int temp = number;// Ôİ´æºÅÂë
-			if (number > 9999 || number < 1000) {// ÅĞ¶ÏÊÇ·ñÎªËÄÎ»
-				System.out.println("ÊäÈë´íÎó!!!");
+			System.out.println("è¯·è¾“å…¥å››ä½ä¼šå‘˜å¡å·:");
+			int number = input.nextInt();// è¾“å…¥å·ç 
+			int temp = number;// æš‚å­˜å·ç 
+			if (number > 9999 || number < 1000) {// åˆ¤æ–­æ˜¯å¦ä¸ºå››ä½
+				System.out.println("è¾“å…¥é”™è¯¯!!!");
 				continue;
 			} else {
-				int sum = 0;// ³õÊ¼»¯Êı×ÖºÍ
-				for (int i = 0; i < 4; i++) {// ºÅÂëÇóºÍ
+				int sum = 0;// åˆå§‹åŒ–æ•°å­—å’Œ
+				for (int i = 0; i < 4; i++) {// å·ç æ±‚å’Œ
 					sum += number % 10;
 					number /= 10;
 				}
 
-				System.out.println("»áÔ±¿¨ºÅ" + temp + "¸÷Î»ºÍÎª:" + sum);
-				System.out.println("ÊÇĞÒÔË¿Í»§Âğ?" + (sum > 20));
+				System.out.println("ä¼šå‘˜å¡å·" + temp + "å„ä½å’Œä¸º:" + sum);
+				System.out.println("æ˜¯å¹¸è¿å®¢æˆ·å—?" + (sum > 20));
 
 			}
 

@@ -6,13 +6,13 @@ public class InitialSchool {
 		// TODO Auto-generated method stub
 
 		School center = new School();
-		System.out.println("***³õÊ¼»¯³ÉÔ±±äÁ¿Ç°***");
+		System.out.println("***åˆå§‹åŒ–æˆå‘˜å˜é‡å‰***");
 		center.showCenter();
-		// ³õÊ¼»¯
-		center.schoolName = "±±¾©ÖĞĞÄ";
+		// åˆå§‹åŒ–
+		center.schoolName = "åŒ—äº¬ä¸­å¿ƒ";
 		center.classNumber = 10;
 		center.labNumber = 10;
-		System.out.println("\n***³õÊ¼»¯³ÉÔ±±äÁ¿Ç°***");
+		System.out.println("\n***åˆå§‹åŒ–æˆå‘˜å˜é‡å‰***");
 		center.showCenter();
 
 	}

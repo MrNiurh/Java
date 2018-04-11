@@ -8,7 +8,7 @@ public class Page5 {
 		// TODO Auto-generated method stub
 
 		String[] names = { "Tom", "Jack", "Merry", "Smith", "Sunny" };
-		System.out.println("***ÅÅĞòÇ°***");
+		System.out.println("***æ’åºå‰***");
 		for (String n : names) {
 			System.out.print(n + "\t");
 		}
@@ -16,7 +16,7 @@ public class Page5 {
 		Arrays.sort(names);
 
 		System.out.println();
-		System.out.println("***ÅÅĞòºó***");
+		System.out.println("***æ’åºå***");
 		for (String n : names) {
 			System.out.print(n + "\t");
 		}

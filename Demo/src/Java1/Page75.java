@@ -11,21 +11,21 @@ public class Page75 {
 
 		for (;;) {
 			Scanner input = new Scanner(System.in);
-			System.out.println("ÇëÊäÈëÕÛ¿Û:");
+			System.out.println("è¯·è¾“å…¥æŠ˜æ‰£:");
 			discount = input.nextDouble();
 			if (discount > 1 || discount <= 0) {
-				System.out.println("ÕÛ¿ÛÇø¼ä(0-1]");
+				System.out.println("æŠ˜æ‰£åŒºé—´(0-1]");
 				continue;
 			} else
 				break;
 		}
-		// ÉÌÆ·
-		String production[] = { "TÐô", "ÍøÇòÐ¬", "ÍøÇòÅÄ" };
-		// µ¥¼Û
+		// å•†å“
+		String production[] = { "Tæ¤", "ç½‘çƒéž‹", "ç½‘çƒæ‹" };
+		// å•ä»·
 		double perprice[] = { 245, 570, 320 };
 
-		for (int i = 0; i < 3; i++) {// ¼ÆËãÊÇ·ñÂú×ãÌõ¼þ
-			System.out.println(production[i] + "ÕÛ¿Û¼ÛµÍÓÚ" + line + "Âð?" + (perprice[i] * discount < line));
+		for (int i = 0; i < 3; i++) {// è®¡ç®—æ˜¯å¦æ»¡è¶³æ¡ä»¶
+			System.out.println(production[i] + "æŠ˜æ‰£ä»·ä½ŽäºŽ" + line + "å—?" + (perprice[i] * discount < line));
 		}
 
 	}

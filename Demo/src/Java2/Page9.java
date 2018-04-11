@@ -7,16 +7,16 @@ public class Page9 {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("¼ì²éºÏ¸ñÁËÂğ?y/n");
+		System.out.println("æ£€æŸ¥åˆæ ¼äº†å—?y/n");
 		String check = input.nextLine();
 		while (!"y".equals(check)) {
 
-			System.out.println("ÉÏÎçÔÄ¶Á½Ì²Ä!");
-			System.out.println("ÏÂÎçÉÏ»ú±à³Ì!");
-			System.out.println("¼ì²éºÏ¸ñÁËÂğ?y/n");
+			System.out.println("ä¸Šåˆé˜…è¯»æ•™æ!");
+			System.out.println("ä¸‹åˆä¸Šæœºç¼–ç¨‹!");
+			System.out.println("æ£€æŸ¥åˆæ ¼äº†å—?y/n");
 			check = input.nextLine();
 		}
-		System.out.println("Íê³ÉÑ§Ï°ÈÎÎñ!");
+		System.out.println("å®Œæˆå­¦ä¹ ä»»åŠ¡!");
 	}
 
 }

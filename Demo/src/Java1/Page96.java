@@ -10,10 +10,10 @@ public class Page96 {
 		double money;
 		Scanner input = new Scanner(System.in);
 		String mumbership;
-		System.out.println("ÇëÊäÈëÊÇ·ñÊÇ»áÔ±:ÊÇ(y)/·ñ(ÆäËû×Ö·û)");
-		mumbership = input.nextLine();// ÊÇ·ñ»áÔ±
-		System.out.println("ÇëÊäÈë¹ºÎï½ð¶î");
-		money = input.nextDouble();// ÊäÈë¹ºÎï½ð¶î
+		System.out.println("è¯·è¾“å…¥æ˜¯å¦æ˜¯ä¼šå‘˜:æ˜¯(y)/å¦(å…¶ä»–å­—ç¬¦)");
+		mumbership = input.nextLine();// æ˜¯å¦ä¼šå‘˜
+		System.out.println("è¯·è¾“å…¥è´­ç‰©é‡‘é¢");
+		money = input.nextDouble();// è¾“å…¥è´­ç‰©é‡‘é¢
 
 		if (mumbership.equals("y")) {// equals!!!!
 			discount = 0.8;// vip
@@ -23,7 +23,7 @@ public class Page96 {
 		} else if (money >= 100) {// normal
 			discount = 0.9;
 		}
-		System.out.println("Êµ¼ÊÖ§¸¶:" + (money * discount));
+		System.out.println("å®žé™…æ”¯ä»˜:" + (money * discount));
 
 	}
 

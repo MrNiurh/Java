@@ -9,7 +9,7 @@ public class Dog extends Pet {
 	}
 
 	public void myStrain() {
-		System.out.println("����һֻ" + strain + "Ȯ");
+		System.out.println("我是一只" + strain + "犬");
 	}
 
 }

@@ -1,21 +1,21 @@
 package Java1;
 
 public class Page39 {
-	// Êä³öÉÌÆ·¼ÛÄ¿±í
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Æ·ï¿½ï¿½Ä¿ï¿½ï¿½
 	public static void main(String[] args) {
 
-		System.out.println("\t¹ºÎïÇåµ¥");
-		// ÌõÄ¿
-		System.out.print("ÉÌÆ·¼Û¸ñ\t");
-		System.out.print("¹ºÂòÊýÁ¿\t");
-		System.out.print("ÉÌÆ·µ¥¼Û\t");
-		System.out.print("½ð¶î\n");
-		// ÉÌÆ·1
-		System.out.print("öùÓã¼Ð¿Ë\t");
+		System.out.println("\tï¿½ï¿½ï¿½ï¿½ï¿½åµ¥");
+		// ï¿½ï¿½Ä¿
+		System.out.print("ï¿½ï¿½Æ·ï¿½Û¸ï¿½\t");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\t");
+		System.out.print("ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½\t");
+		System.out.print("ï¿½ï¿½ï¿½\n");
+		// ï¿½ï¿½Æ·1
+		System.out.print("ï¿½ï¿½ï¿½ï¿½Ð¿ï¿½\t");
 		System.out.print("1\t");
 		System.out.print("1900\t");
 		System.out.print("1900\n");
-		// ÉÌÆ·2
+		// ï¿½ï¿½Æ·2
 		System.out.print("iPodMP4\t");
 		System.out.print("2\t");
 		System.out.print("400\t");

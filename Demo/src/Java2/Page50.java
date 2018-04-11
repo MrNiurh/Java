@@ -10,18 +10,18 @@ public class Page50 {
 		Scanner input = new Scanner(System.in);
 
 		for (int i = 0; i < 3; i++) {
-			System.out.print("ÇëÊäÈëÓÃ»§Ãû:");
+			System.out.print("è¯·è¾“å…¥ç”¨æˆ·å:");
 			String userName = input.next();
-			System.out.print("ÇëÊäÈëÃÜÂë:");
+			System.out.print("è¯·è¾“å…¥å¯†ç :");
 			String userPassword = input.next();
 			if (userName.equals("jim") && userPassword.equals("123456")) {
-				System.out.println("»¶Ó­µÇÂ½MyShoppingÏµÍ³");
+				System.out.println("æ¬¢è¿Žç™»é™†MyShoppingç³»ç»Ÿ");
 				break;
 
 			} else {
-				System.out.println("ÊäÈë´íÎó!Äú»¹ÓÐ" + (2 - i) + "´Î»ú»á!\n");
+				System.out.println("è¾“å…¥é”™è¯¯!æ‚¨è¿˜æœ‰" + (2 - i) + "æ¬¡æœºä¼š!\n");
 				if (i == 2) {
-					System.out.println("¶Ô²»Æð,Äú3´ÎÊäÈë¾ù´íÎó!");
+					System.out.println("å¯¹ä¸èµ·,æ‚¨3æ¬¡è¾“å…¥å‡é”™è¯¯!");
 					break;
 				}
 				continue;

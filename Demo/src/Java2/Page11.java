@@ -13,6 +13,6 @@ public class Page11 {
 			}
 			number++;
 		}
-		System.out.println("100ÒÔÄÚ(º¬100)µÄÅ¼ÊıºÍÊÇ:" + summary);
+		System.out.println("100ä»¥å†…(å«100)çš„å¶æ•°å’Œæ˜¯:" + summary);
 	}
 }

@@ -6,25 +6,25 @@ public class Account {
 
 	public void saveMoney(double add) {
 
-		money += add;// ´æ¿î²Ù×÷
+		money += add;// å­˜æ¬¾æ“ä½œ
 
-		System.out.println("´æ¿î³É¹¦");
+		System.out.println("å­˜æ¬¾æˆåŠŸ");
 		System.out.println();
-		System.out.println("***µ±Ç°Óà¶îÎª:" + money + "Ôª***");
+		System.out.println("***å½“å‰ä½™é¢ä¸º:" + money + "å…ƒ***");
 
 	}
 
 	public void takeMoney(double del) {
 
-		if (money >= del) {// È¡¿î²Ù×÷
+		if (money >= del) {// å–æ¬¾æ“ä½œ
 			money -= del;
-			System.out.println("È¡¿î³É¹¦");
+			System.out.println("å–æ¬¾æˆåŠŸ");
 			System.out.println();
-			System.out.println("***µ±Ç°Óà¶îÎª:" + money + "Ôª***");
+			System.out.println("***å½“å‰ä½™é¢ä¸º:" + money + "å…ƒ***");
 		}
 
-		else// Óà¶î²»×ã
-			System.out.println("Óà¶î²»×ã!");
+		else// ä½™é¢ä¸è¶³
+			System.out.println("ä½™é¢ä¸è¶³!");
 
 	}
 

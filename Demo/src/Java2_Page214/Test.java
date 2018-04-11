@@ -13,29 +13,29 @@ public class Test {
 
 		Customer cus = new Customer();
 
-		for (int i = 0; i < 5; i++) {// ±éÀú5Ãû¹Ë¿Í
+		for (int i = 0; i < 5; i++) {// éåŽ†5åé¡¾å®¢
 
-			System.out.print("ÇëÊäÈë¹Ë¿ÍÐÕÃû:");
-			name = input.next();// ÊäÈëÐÕÃû
-			cus.Names[i] = cus.addName(name);// ½«ÐÕÃû´æÈëÊý×é
+			System.out.print("è¯·è¾“å…¥é¡¾å®¢å§“å:");
+			name = input.next();// è¾“å…¥å§“å
+			cus.Names[i] = cus.addName(name);// å°†å§“åå­˜å…¥æ•°ç»„
 		}
 
 		System.out.println("*****************************");
 		System.out.println();
-		System.out.println("\t¹Ë¿ÍÐÕÃûÁÐ±í");
+		System.out.println("\té¡¾å®¢å§“ååˆ—è¡¨");
 		System.out.println();
 		System.out.println("*****************************");
-		cus.showNames();// ¿ªÊ¼Êä³ö
+		cus.showNames();// å¼€å§‹è¾“å‡º
 		System.out.println();
 		System.out.println();
-		cus.changeName();// ¸ÄÃû×Ö
+		cus.changeName();// æ”¹åå­—
 
 		System.out.println("*****************************");
 		System.out.println();
-		System.out.println("\t¹Ë¿ÍÐÕÃûÁÐ±í");
+		System.out.println("\té¡¾å®¢å§“ååˆ—è¡¨");
 		System.out.println();
 		System.out.println("*****************************");
-		cus.showNames();// ¿ªÊ¼Êä³ö
+		cus.showNames();// å¼€å§‹è¾“å‡º
 	}
 
 }

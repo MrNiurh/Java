@@ -8,7 +8,7 @@ public class Page133 {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÒ»´®Êı×Ö:");
+		System.out.print("è¯·è¾“å…¥ä¸€ä¸²æ•°å­—:");
 		String number = input.next();
 
 		StringBuffer str = new StringBuffer(number);
